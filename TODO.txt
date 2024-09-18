@@ -1,1 +1,2 @@
 - Remove cache and wallpapers from the repo
+- Remove things that don't need tracking or are constantly changed (like waypaper config)
