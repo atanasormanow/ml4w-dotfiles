@@ -1,1 +1,1 @@
-/ml4w-blur-bottom;/ml4w-blur-bottom/colored
+/ml4w-blur;/ml4w-blur/colored
