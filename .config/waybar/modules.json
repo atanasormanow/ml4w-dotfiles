@@ -20,7 +20,7 @@
       "default": ""
     },
     "persistent-workspaces": {
-      "*": 5
+            "*": 1
     }
   },
 
@@ -263,7 +263,7 @@
     "modules": [
       "custom/tools",
       "custom/cliphist",
-      "custom/hypridle",
+//      "custom/hypridle",
       "custom/hyprshade"
     ]
   },
@@ -272,7 +272,7 @@
   "group/links": {
     "orientation": "horizontal",
     "modules": [
-      "custom/chatgpt",
+//      "custom/chatgpt",
       "custom/empty"      
     ]
   },
