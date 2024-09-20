@@ -237,10 +237,6 @@
     "on-click": "~/.config/ml4w/settings/system-monitor.sh"
   },
 
-  "hyprland/language": {
-    "format": "/ K {short}"
-  },
-
   // Group Hardware
   "group/hardware": {
     "orientation": "inherit",
@@ -250,6 +246,10 @@
       "transition-left-to-right": false
     },
     "modules": ["custom/system", "disk", "cpu", "memory", "hyprland/language"]
+  },
+
+  "hyprland/language": {
+    "format": "  {short}"
   },
 
   // Group Tools
