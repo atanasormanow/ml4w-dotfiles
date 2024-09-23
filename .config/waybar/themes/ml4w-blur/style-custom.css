@@ -5,8 +5,11 @@
  *   \ V  V / (_| | |_| | |_) | (_| | |     ___) | |_| |_| | |  __/ 
  *    \_/\_/ \__,_|\__, |_.__/ \__,_|_|    |____/ \__|\__, |_|\___| 
  *                 |___/                              |___/         
- *  
+ *
  * ----------------------------------------------------- 
+ * IMPORTANT: This file is UNUSED as of now. It is just a backup of styles.css
+ *            I did not manage to make ml4w to use this custom css like it does
+ *            with the config
 */
 
 /* -----------------------------------------------------
@@ -330,7 +333,7 @@ window#waybar.empty #window {
     color: @textcolor2;
     border-radius: 15px;
     padding: 2px 10px 0px 10px;
-    margin: 8px 12px 8px 8px;
+    margin: 6px 12px 6px 8px;
     opacity:0.8;
 }
 
@@ -431,7 +434,7 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #battery {
-    background-color: @backgroundlight;
+    background-color: @backgrounddark;
     font-size: 16px;
     color: @textcolor2;
     border-radius: 15px;
