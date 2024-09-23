@@ -214,7 +214,8 @@
   // System
   "custom/system": {
     "format": "",
-    "tooltip": false
+    "on-click": "~/.config/ml4w/settings/system-monitor.sh",
+    "tooltip-format": "System Monitor"
   },
 
   // CPU
@@ -238,15 +239,15 @@
   },
 
   // Group Hardware
-  "group/hardware": {
-    "orientation": "inherit",
-    "drawer": {
-      "transition-duration": 300,
-      "children-class": "not-memory",
-      "transition-left-to-right": false
-    },
-    "modules": ["custom/system", "disk", "cpu", "memory", "hyprland/language"]
-  },
+  //"group/hardware": {
+  //  "orientation": "inherit",
+  //  "drawer": {
+  //    "transition-duration": 300,
+  //    "children-class": "not-memory",
+  //    "transition-left-to-right": false
+  //  },
+  //  "modules": ["custom/system", "disk", "cpu", "memory"]
+  //},
 
   "hyprland/language": {
     "format": "  {short}"
@@ -273,7 +274,7 @@
     "orientation": "horizontal",
     "modules": [
 //      "custom/chatgpt",
-      "custom/empty"      
+      "custom/empty"
     ]
   },
 

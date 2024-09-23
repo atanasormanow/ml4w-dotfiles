@@ -23,11 +23,11 @@
 
     // Modules Left
     "modules-left": [
-        "custom/empty",
         "hyprland/language",
         //"custom/appmenu",
         "hyprland/workspaces",
-        "group/links"
+        "custom/wallpaper"
+        //"group/links"
         //"wlr/taskbar",
         //"group/quicklinks",
         //"hyprland/window",
@@ -40,16 +40,17 @@
         "bluetooth",
         "pulseaudio",
         "backlight",
-        "group/settings"
+        "custom/system"
+        //"group/settings"
     ],
 
     // Modules Right
     "modules-right": [
-        //"group/hardware",
         //"group/tools",
         "tray",
         //"custom/ml4w-welcome",
         "custom/updates",
+        //"group/hardware",
         "clock",
         "custom/exit"
     ]
