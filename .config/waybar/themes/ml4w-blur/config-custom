@@ -35,7 +35,7 @@
 
     // Modules Center
     "modules-center": [
-        "battery",
+        //"battery",
         "network",
         "bluetooth",
         "pulseaudio",
