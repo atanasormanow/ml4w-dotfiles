@@ -39,7 +39,7 @@
         "network",
         "bluetooth",
         "pulseaudio",
-        "backlight",
+        //"backlight",
         "custom/system"
         //"group/settings"
     ],
