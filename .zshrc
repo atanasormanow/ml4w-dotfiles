@@ -22,3 +22,5 @@ for f in ~/.config/zshrc/*; do
         [[ -f $c ]] && source $c || source $f
     fi
 done
+
+[ -f "/home/nakk/.ghcup/env" ] && . "/home/nakk/.ghcup/env" # ghcup-env
