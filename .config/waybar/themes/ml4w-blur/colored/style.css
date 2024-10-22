@@ -10,7 +10,7 @@
 @define-color bordercolor @color11;
 @define-color textcolor1 #000000;
 @define-color textcolor2 #000000;
-@define-color textcolor3 #000000;
+@define-color textcolor3 #FFFFFF;
 @define-color iconcolor #FFFFFF;
 
 @import '../style-custom.css';
